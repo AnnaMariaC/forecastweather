@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #00abbd;
+  --primary-color-dark: #026e81;
+  --secondary-color: #a1c7e0;
+  --secondary-color-dark: #0099dd;
+  --accent-color: #ff9933;
+  --text-color: #ffff;
+  --text-color-dark: #333;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond,
+    "Times New Roman", serif;
+}
+body {
+  margin: 0px;
+  background: var(--secondary-color);
+}
+h1,
+h2,
+h3,
+p {
+  color: var(--text-color-dark);
+  text-align: center;
+}
